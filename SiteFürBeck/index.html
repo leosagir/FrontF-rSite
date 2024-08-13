@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Management</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Book Management System</h1>
+  
+  <div id="actions">
+    <button id="show-all-books">Показать все книги</button>
+    <input type="text" id="author-input" placeholder="Автор">
+    <button id="search-by-author">Найти книгу по автору</button>
+    <input type="text" id="title-input" placeholder="Название">
+    <button id="search-by-title">Найти книгу по названию</button>
+    <input type="text" id="genre-input" placeholder="Жанр">
+    <button id="search-by-genre">Найти книгу по жанру</button>
+    <input type="text" id="new-title" placeholder="Новое название">
+    <input type="text" id="new-author" placeholder="Новый автор">
+    <input type="text" id="new-genre" placeholder="Новый жанр">
+    <input type="text" id="new-description" placeholder="Описание">
+    <button id="add-book-button">Добавить книгу</button>
+    <input type="number" id="delete-id-input" placeholder="ID для удаления">
+    <button id="delete-book-button">Удалить книгу</button>
+  </div>
+  
+  <div id="book-list"></div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
